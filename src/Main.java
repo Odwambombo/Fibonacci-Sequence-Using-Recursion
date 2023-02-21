@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    //A array to store the data
+    //A array to store the data of each index of the fibonacci sequence
     public static int[] array;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

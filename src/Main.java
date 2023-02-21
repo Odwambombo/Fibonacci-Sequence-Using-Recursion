@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    //A array to store the data in for fast retrieval using memonization
+    //A array to store the data
     public static int[] array;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

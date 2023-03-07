@@ -1,4 +1,4 @@
-package Main.Fibonacci;
+package Fibonacci;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,8 +1,6 @@
-package FibonacciTests;
 
-import Main.Fibonacci.Fibonacci;
 import org.junit.Test;
-
+import Fibonacci.Fibonacci;
 import static org.junit.Assert.assertEquals;
 
 public class FabonacciUnitTest {

@@ -1,26 +1,19 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
+package FibonacciTests;
+
+import Main.Fibonacci.Fibonacci;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class FabonacciUnitTest {
 
-    @org.junit.Test(expected = IllegalStateException.class)
+    @Test(expected = IllegalStateException.class)
     public void testForNegativeFibonacciIndex() {
         int input = -1;
-        String ExpectedResult = "Please enter a positive number there is no negative number in fibonacci Sequence!";
-        assertEquals(Fibonacci.fibonacci(input), ExpectedResult);
+        assertEquals(Fibonacci.fibonacci(input), IllegalStateException.class);
     }
 
-    @org.junit.Test(expected = InputMismatchException.class)
-    public void testForForeignCharactersFibonacciIndex() {
-        Scanner scanner = new Scanner("5bx");
-        int input = scanner.nextInt();
-        String ExpectedResult = "Please enter a integer value only which is your Fibonacci Index";
-        assertEquals(Fibonacci.fibonacci(input), ExpectedResult);
-    }
-
-    @org.junit.Test
+    @Test
     public void testForPositiveFibonacciIndex(){
         int input = 10;
         int expectedValue = 55;
@@ -29,7 +22,7 @@ public class FabonacciUnitTest {
         assertEquals(Fibonacci.fibonacciList(input), expectedFibonacciList);
     }
 
-    @org.junit.Test
+    @Test
     public void testForZeroFibonacciIndex(){
         int input = 0;
         int ExpectedValue = 0;

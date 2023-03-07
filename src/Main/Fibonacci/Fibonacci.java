@@ -1,3 +1,5 @@
+package Main.Fibonacci;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -23,9 +25,7 @@ public class Fibonacci {
     public static String fibonacciList(int data){
         StringBuilder fibonacciList = new StringBuilder();
         for(int i=0; i < data+1; i++){
-
             fibonacciList.append(fibonacci(i)).append(" ");
-
         }
         return fibonacciList.toString();
     }

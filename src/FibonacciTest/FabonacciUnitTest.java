@@ -1,6 +1,6 @@
 
 import org.junit.Test;
-import Fibonacci.Fibonacci;
+import fibonacci.Fibonacci;
 import static org.junit.Assert.assertEquals;
 
 public class FabonacciUnitTest {
@@ -17,7 +17,7 @@ public class FabonacciUnitTest {
         int expectedValue = 55;
         String expectedFibonacciList = "0 1 1 2 3 5 8 13 21 34 55 ";
         assertEquals(Fibonacci.fibonacci(input), expectedValue);
-        assertEquals(Fibonacci.fibonacciList(input), expectedFibonacciList);
+        assertEquals(Fibonacci.getFibonacciList(input), expectedFibonacciList);
     }
 
     @Test
@@ -26,7 +26,7 @@ public class FabonacciUnitTest {
         int ExpectedValue = 0;
         String expectedFibonacciList = "0 ";
         assertEquals(Fibonacci.fibonacci(input), ExpectedValue);
-        assertEquals(Fibonacci.fibonacciList(input), expectedFibonacciList);
+        assertEquals(Fibonacci.getFibonacciList(input), expectedFibonacciList);
     }
 
 }

@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cc7fe953-d9cb-4939-a476-33cc9277cf69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fibonacci.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Fibonacci.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FibonacciTest/FabonacciUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciTest/FabonacciUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Fibonacci/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Fibonacci/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FibonacciTest/FabonacciUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FibonacciTest/FibonacciUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/fibonacci/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/fibonacci/Fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +63,7 @@
       <recent name="FibonacciTests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FabonacciUnitTest.testForNegativeFibonacciIndex">
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
-      <module name="Fibonacci" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.FibonacciUnitTest.testForZeroFibonacciIndex">
     <configuration name="fibonacci.Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fibonacci.Fibonacci" />
       <module name="Fibonacci" />
@@ -85,35 +77,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FabonacciUnitTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fibonacci" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FibonacciTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="FibonacciTests" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciTests.FabonacciUnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciUnitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FabonacciUnitTest.testForNegativeFibonacciIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciUnitTest.testForNegativeFibonacciIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fibonacci" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FabonacciUnitTest" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciUnitTest" />
       <option name="METHOD_NAME" value="testForNegativeFibonacciIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FabonacciUnitTest.testForZeroFibonacciIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibonacciUnitTest.testForPositiveFibonacciIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Fibonacci" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FabonacciUnitTest" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciUnitTest" />
+      <option name="METHOD_NAME" value="testForPositiveFibonacciIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibonacciUnitTest.testForZeroFibonacciIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fibonacci" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FibonacciUnitTest" />
       <option name="METHOD_NAME" value="testForZeroFibonacciIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -122,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FabonacciUnitTest.testForNegativeFibonacciIndex" />
+        <item itemvalue="JUnit.FibonacciUnitTest.testForZeroFibonacciIndex" />
+        <item itemvalue="JUnit.FibonacciUnitTest.testForPositiveFibonacciIndex" />
+        <item itemvalue="JUnit.FibonacciUnitTest.testForNegativeFibonacciIndex" />
+        <item itemvalue="JUnit.FibonacciUnitTest" />
         <item itemvalue="Application.fibonacci.Fibonacci" />
-        <item itemvalue="JUnit.FabonacciUnitTest (1)" />
-        <item itemvalue="JUnit.FabonacciUnitTest.testForZeroFibonacciIndex" />
-        <item itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +141,9 @@
       <workItem from="1677490287588" duration="1198000" />
       <workItem from="1678108929513" duration="1293000" />
       <workItem from="1678124051607" duration="9043000" />
-      <workItem from="1678195200341" duration="3534000" />
+      <workItem from="1678195200341" duration="4039000" />
+      <workItem from="1678268369415" duration="78000" />
+      <workItem from="1678268612557" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="Fibonacci">
       <created>1676974059697</created>
@@ -252,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678196075291</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="The last update">
+      <created>1678200673327</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678200673327</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
